@@ -1,0 +1,5 @@
+{
+  "intelephense.environment.includePaths": [
+    "D:\\dev\\code\\swoole-course-examples\\vendor\\eaglewu\\swoole-ide-helper\\src"
+  ]
+}
