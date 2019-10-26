@@ -4,7 +4,7 @@ $server = new Swoole\HTTP\Server('0.0.0.0', 9501);
 
 $server->set([
     'worker_num' => 2,
-    'task_worker_num' => 4
+    'task_worker_num' => 4,
 ]);
 
 $server->on('request', function ($request, $response) use ($server) {

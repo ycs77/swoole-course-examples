@@ -1,7 +1,7 @@
 <?php
 
 $amount = 100;
-$lock = new Swoole\Lock;
+$lock = new Swoole\Lock(SWOOLE_MUTEX);
 
 echo "remaining amount: {$amount}\n";
 

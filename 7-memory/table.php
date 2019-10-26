@@ -11,4 +11,5 @@ $table->set('a', ['id' => 1, 'name' => 'foo']);
 $table->set('b', ['id' => 2, 'name' => 'bar']);
 
 var_dump($table->get('a', 'name'));
+var_dump($table->get('b', 'name'));
 var_dump($table->memorySize);
