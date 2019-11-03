@@ -8,7 +8,7 @@ go(function () use (&$pool) {
     $pool = new SwooleCourse\ResourcePool(2);
 });
 
-for ($i = 0; $i < 3; $i++) {
+for ($i = 0; $i < 4; $i++) {
     go(function () use ($pool) {
         var_dump($resource = $pool->get());
         co::sleep(3);
